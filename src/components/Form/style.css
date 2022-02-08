@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap");
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+  height: 321px;
+  width: 363px;
+  left: 258px;
+  top: 127px;
+  padding-top: 38px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+h2 {
+  font-size: 12px;
+}
+.description {
+  margin-left: 24px;
+}
+.description h2 {
+}
+.description input {
+  border-style: none;
+  height: 52.8px;
+  width: 314px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding-left: 16px;
+}
+
+.description input::placeholder {
+  font-family: "Inter", sans-serif;
+
+  color: #868e96;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.value-and-type {
+  display: flex;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.value {
+  width: 163.5px;
+}
+
+.value input {
+  background-color: #f8f9fa;
+  border-style: none;
+  width: 128px;
+  padding-left: 16px;
+  height: 48px;
+  border-radius: 8px;
+}
+.value input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+label,
+input {
+  position: relative;
+  display: block;
+  padding-right: 30px;
+  width: 174px;
+  box-sizing: border-box;
+}
+
+label::after {
+  content: attr(price);
+  position: absolute;
+  top: 13px;
+  left: 105px;
+  font-size: 16px;
+  display: block;
+  color: #868e96;
+  font-weight: bold;
+}
+
+.type-of-value select {
+  padding-left: 16px;
+  border-style: none;
+  background-color: #f8f9fa;
+  height: 48px;
+  width: 150px;
+}
+
+.form button {
+  margin-top: 16px;
+  margin-left: 24px;
+  width: 314px;
+  height: 48px;
+  background-color: #fd377e;
+  border-style: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.form button:hover {
+  cursor: pointer;
+  background-color: #e34981;
+  transition: 1.5s;
+}

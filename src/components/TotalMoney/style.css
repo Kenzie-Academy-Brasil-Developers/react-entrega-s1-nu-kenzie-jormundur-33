@@ -1,0 +1,17 @@
+@import url(https://www.1001fonts.com/nunito-font.html);
+.total-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e34981;
+  width: 328px;
+  height: 68px;
+  padding-right: 19px;
+  padding-left: 16px;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+}
