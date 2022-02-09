@@ -1,0 +1,30 @@
+@import url(https://www.1001fonts.com/nunito-font.html);
+
+.empty-card{
+  margin-top: 30px;
+
+}
+img{
+    width: 100%;
+}
+h2{
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    color: #868E96;
+}
+
+
+
+
+@media screen and (min-width:1024px){
+    .empty-card{
+        margin-left: 100px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    img{
+        
+        width: 562px;
+    }
+}

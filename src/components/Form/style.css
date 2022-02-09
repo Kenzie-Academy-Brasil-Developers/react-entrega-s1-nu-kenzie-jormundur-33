@@ -3,21 +3,23 @@
 .form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-family: "Inter", sans-serif;
   height: 321px;
-  width: 363px;
+  width: 100%;
   left: 258px;
   top: 127px;
   padding-top: 38px;
   border-radius: 4px;
   box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  margin-bottom: 16px;
 }
 h2 {
   font-size: 12px;
 }
 .description {
-  margin-left: 24px;
+  margin-left: 0px;
 }
 .description h2 {
 }
@@ -42,8 +44,7 @@ h2 {
 }
 .value-and-type {
   display: flex;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 0px;
 }
 
 .value {
@@ -89,10 +90,17 @@ label::after {
   height: 48px;
   width: 150px;
 }
+option {
+  background-color: #f8f9fa;
+  font-size: 12px;
+}
+option:checked {
+  background-color: #e9ecef;
+}
 
 .form button {
   margin-top: 16px;
-  margin-left: 24px;
+  margin-left: 0px;
   width: 314px;
   height: 48px;
   background-color: #fd377e;
@@ -106,4 +114,16 @@ label::after {
   cursor: pointer;
   background-color: #e34981;
   transition: 1.5s;
+}
+
+@media screen and (min-width: 1024px) {
+  .value-and-type {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .form {
+    height: 380px;
+    margin-top: 39px;
+    width: 363px;
+  }
 }

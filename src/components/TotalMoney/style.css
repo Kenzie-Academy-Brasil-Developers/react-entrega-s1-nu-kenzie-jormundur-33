@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   background-color: #e34981;
-  width: 328px;
   height: 68px;
   padding-right: 19px;
   padding-left: 16px;
@@ -14,4 +13,10 @@
   font-weight: 700;
   font-size: 16px;
   font-family: "Nunito", sans-serif;
+}
+
+@media screen and (min-width:1024px){
+  .total-price{
+    width: 328px;
+  }
 }

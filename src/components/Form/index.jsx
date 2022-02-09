@@ -3,7 +3,7 @@ import "./style.css";
 function Form({ state, setState }) {
   const [userDescription, setUserDescription] = useState("");
   const [userValue, setUserValue] = useState(1);
-  const [userValue2, setUserValue2] = useState("Choose");
+  const [userValue2, setUserValue2] = useState("entry");
   console.log(userValue);
   console.log(userDescription);
   console.log(userValue2);
@@ -48,8 +48,7 @@ function Form({ state, setState }) {
         <div className="type-of-value">
           <h2>Type of value</h2>
           <div className="select-div">
-            <select value={userValue2} onChange={handleSelect}>
-              <option value="Choose:">Choose:</option>
+            <select placeholder="Choose:" value={userValue2} onChange={handleSelect}>
               <option value="entry">Entry</option>
               <option value="expense">Expense</option>
             </select>
